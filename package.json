@@ -1,0 +1,34 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashkurakar/angular"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp && lite-server -c server-config-dev.json"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-debug": "^2.0.1",
+    "gulp-inject": "^1.2.0",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-tslint": "^1.4.4",
+    "gulp-typescript": "^2.5.0",
+    "lite-server": "^2.2.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "browser-sync": "^2.18.5",
+    "del": "^2.2.2",
+    "karma": "^1.3.0",
+    "superstatic": "^4.0.3"
+  }
+}
